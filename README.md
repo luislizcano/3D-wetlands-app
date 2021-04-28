@@ -7,4 +7,6 @@ Institute for Marine Remote Sensing (IMARS)<br>
 College of Marine Science, University of South Florida
 
 ## Credits:
+The WorldView imagery was processed at the Institute for Marine Remote Sensing (IMARS) at the College of Marine Science, University of South Florida and the DEM was acquired by the Harte Research Institute for Gulf of Mexico Studies at Texas A&M University - Corpus Christi.
+
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/logos/USF-Logo2.png" width="300"> <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/logos/TAMUCC_block-color.png" width="200">

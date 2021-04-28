@@ -5,7 +5,7 @@
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/logos/USF-Logo2.png" width="300"> <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/logos/TAMUCC_block-color.png" width="200">
 
 
-<p>GEE App developed by:<br>
+GEE App developed by:<br>
 **Luis Lizcano-Sandoval**<br>
 Institute for Marine Remote Sensing (IMARS)<br>
-College of Marine Science, University of South Florida</p>
+College of Marine Science, University of South Florida

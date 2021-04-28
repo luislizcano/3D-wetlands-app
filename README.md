@@ -6,6 +6,6 @@
 
 
 <p>GEE App developed by:<br>
-Luis Lizcano-Sandoval<br>
+**Luis Lizcano-Sandoval**<br>
 Institute for Marine Remote Sensing (IMARS)<br>
 College of Marine Science, University of South Florida</p>

@@ -3,7 +3,7 @@
 
 
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/logos/USF-Logo2.png" width="300">
-
+<img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/logos/USF-Logo2.png" width="300">
 
 
 <p>App developed by:<br>

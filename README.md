@@ -1,6 +1,8 @@
 # 3D Wetlands App
 <p>Google Earth Engine (GEE) Application to visualize and compare land cover changes and Digital Elevation Models (DEM) over the wetland areas of the Northern Gulf of Mexico and Florida at very high-resolutions.</p>
 
+<img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/images/gee-app.JPG" width="800">
+
 ## Introduction:
 The 3D Wetlands App provide access to two large collections, (1) Landcover and (2) DEM, ingested to Earth Engine. The landcover product offer access to 12,929 processed and classified imagery at 2 m per pixel from WorldView-2 and WorldView-3 satellites, with temporal coverage from 2009 to 2018 (this is not consistent over time).
 

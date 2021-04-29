@@ -34,6 +34,11 @@ The 3D Wetlands App is open access through GEE. The users do not require a GEE a
 * Calculate the area (km2) of each class in the mosaic and export as a .csv file (Advanced Interface).
 * Access to the whole landcover and DEM collections through the code editor (Advanced Interface).
 
+## Demo
+### Basic Interface:
+
+<img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/wetlands-app-basic.gif" width="800">
+
 ## FAQ
 **How are the landcover mosaics generated?**
 

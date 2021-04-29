@@ -6,7 +6,7 @@ The 3D Wetlands App is GEE App
 ## Features:
 This app allows to create and compare land cover mosaics of two user-defined periods in one or more selected Counties. The DEM will show up for the selected areas in 
 
-
+## FAQ
 
 ## Disclaimer:
 The 3D Wetlands App provide access to processed satellite imagery and LiDAR data as a tool for public and academic use. The raw satellite data is property of DigitalGlobe.

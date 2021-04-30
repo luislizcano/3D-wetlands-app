@@ -37,7 +37,7 @@ The 3D Wetlands App is open access through GEE. The users do not require a GEE a
 ## Demo
 ### Basic Interface:
 
-<img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/wetlands-app-basic.gif" width="800">
+<img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/wetlands-app-basic.gif" width="1000">
 
 ## FAQ
 **How are the landcover mosaics generated?**

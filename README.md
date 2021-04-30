@@ -29,7 +29,7 @@ The 3D Wetlands App is open access through GEE. The users do not require a GEE a
 * Visualize the DEM associated to the selected Counties.
 * Create mosaics including all or single landcover classes.
 * See the number of images used to create a mosaic.
-* Download the generated mosaics as .png (Basic Interface).
+* Download the generated mosaics as .png, max resolution 1000x1000px (Basic Interface).
 * Export the generated mosaics in as a GeoTiff image (Advanced Interface).
 * Calculate the area (km2) of each class in the mosaic and export as a .csv file (Advanced Interface).
 * Access to the whole landcover and DEM collections through the code editor (Advanced Interface).

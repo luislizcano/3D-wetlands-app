@@ -56,7 +56,7 @@ Yes, full access to the collections is possible trough the GEE code editor (Adva
 Yes, the mosaics can be downloaded as .png (Basic Interface) or .tiff (Advanced Interface).
 
 ## Disclaimer:
-The 3D Wetlands App provide access to processed satellite imagery and LiDAR data as a tool for public and academic use. The raw satellite data is property of DigitalGlobe. The 3D Wetlands App is a product of the ongoing research project *Enhanced 3-D Mapping for Habitat, Biodiversity, and Flood Hazard Assessments of Coastal and Wetland Areas of the Southern US* granted by NSF to Frank Muller-Karger and Timothy Dixon at the University of South Florida, in collaboration with James Gibeaut at the Harte Research Institute, TAMU-CC.
+The 3D Wetlands App provide access to processed satellite imagery and DEM data as a tool for public and academic use. The raw satellite data is property of DigitalGlobe. The 3D Wetlands App is a product of the ongoing research project *Enhanced 3-D Mapping for Habitat, Biodiversity, and Flood Hazard Assessments of Coastal and Wetland Areas of the Southern US* granted by NSF to Frank Muller-Karger and Timothy Dixon at the University of South Florida, in collaboration with James Gibeaut at the Harte Research Institute, TAMU-CC.
 
 ## Credits:
 The WorldView imagery was processed at the Institute for Marine Remote Sensing (IMARS) at the College of Marine Science, University of South Florida and the DEM was acquired by the Harte Research Institute for Gulf of Mexico Studies at Texas A&M University - Corpus Christi. Google Earth Engine is the platform where the data is stored and distributed. Special thanks to Noel Gorelick who helped to ingest the image collections in GEE.

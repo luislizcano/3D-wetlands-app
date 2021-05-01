@@ -8,8 +8,6 @@
 
 <p>Google Earth Engine (GEE) Application to visualize and compare land cover changes and Digital Elevation Models (DEM) over the wetland areas of the Northern Gulf of Mexico and Florida at very high-resolutions.</p>
 
-Link: https://lizcanosandoval.users.earthengine.app/view/hr-land-cover-gulf-of-mexico
-
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/images/gee-app.JPG" width="800">
 
 ## Introduction:

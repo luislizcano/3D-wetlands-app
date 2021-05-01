@@ -1,6 +1,6 @@
 # 3D Wetlands App
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Flizcanosandoval.users.earthengine.app%2Fview%2Fhr-land-cover-gulf-of-mexico&count_bg=%2316DDC7&title_bg=%23555555&icon=googleearth.svg&icon_color=%2329D1FF&title=3D-Wetlands+App&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Flizcanosandoval.users.earthengine.app%2Fview%2Fhr-land-cover-gulf-of-mexico&count_bg=%2316DDC7&title_bg=%23555555&icon=github.svg&icon_color=%2329D1FF&title=Visits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <p>Google Earth Engine (GEE) Application to visualize and compare land cover changes and Digital Elevation Models (DEM) over the wetland areas of the Northern Gulf of Mexico and Florida at very high-resolutions.</p>
 

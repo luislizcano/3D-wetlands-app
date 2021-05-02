@@ -64,6 +64,12 @@ Yes, full access to the collections is possible trough the GEE code editor (Adva
 
 Yes, the mosaics can be downloaded as .png (Basic Interface) or .tiff (Advanced Interface).
 
+**I don't see any map after pressing the "Generate" button**
+
+1. Make sure you have selected at least one County.
+2. Make sure you have selected a valid period for both left and right maps.
+3. Check the number available images for the selected County and Tile Coverage Layer.
+
 ## Disclaimer:
 The 3D Wetlands App provide access to processed satellite imagery and DEM data as a tool for public and academic use. The raw satellite data is property of DigitalGlobe. The 3D Wetlands App is a product of the ongoing research project *Enhanced 3-D Mapping for Habitat, Biodiversity, and Flood Hazard Assessments of Coastal and Wetland Areas of the Southern US* granted by NSF to Frank Muller-Karger and Timothy Dixon at the University of South Florida, in collaboration with James Gibeaut at the Harte Research Institute, TAMU-CC.
 

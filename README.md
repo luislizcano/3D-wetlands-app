@@ -43,6 +43,7 @@ The 3D Wetlands App is open access through GEE. The users do not require a GEE a
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/04.gif" width="700">
 
 * Draw transects on the map and explore elevation and land cover profiles.
+<img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/05.gif" width="700">
 
 * Download the generated mosaics as .png, max resolution 1000x1000px (Basic Interface).
 * Export the generated mosaics in as a GeoTiff image (Advanced Interface).

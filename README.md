@@ -31,6 +31,8 @@ The 3D Wetlands App is open access through GEE. The users do not require a GEE a
 
 ## Features:
 * Create, visualize and compare land cover mosaics of two user-defined periods in one or more selected Counties.
+<img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/01.gif" width="300">
+
 * Visualize the DEM associated to the selected Counties.
 * Create mosaics including all or single landcover classes.
 * See the number of images used to create a mosaic.

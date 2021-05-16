@@ -30,19 +30,19 @@ DEM Coverage:
 The 3D Wetlands App is open access through GEE. The users do not require a GEE account to use all the features available in the [app interface](https://lizcanosandoval.users.earthengine.app/view/hr-land-cover-gulf-of-mexico). If the user has a GEE account can have access to an [advanced version](https://code.earthengine.google.com/47c4f5bbc0182929f4273c24dd2315b6) which will allow to export data to the respective Google Drive account by clicking a button. To this point previous experience with GEE is **not required**. However, the access of the landcover and DEM collections for other specific uses through the code editor previous knowledge with GEE is required (See the [GEE Documentation](https://developers.google.com/earth-engine)).
 
 ## Features:
-* Create, visualize and compare land cover mosaics of two user-defined periods in one or more selected Counties.
+* Create, visualize and compare land cover mosaics of two user-defined periods in one or more selected Counties:
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/01.gif" width="300">
 
-* Visualize the DEM associated to the selected Counties.
+* Visualize the DEM associated to the selected Counties:
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/02.gif" width="700">
 
-* See the number of images (land cover) available in selected Counties and number of images used to create a mosaic.
+* See the number of images (land cover) available in selected Counties and number of images used to create a mosaic:
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/03.gif" width="300">
 
-* Create mosaics including all or single landcover classes.
+* Create mosaics including all or single landcover classes:
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/04.gif" width="700">
 
-* Draw transects on the map and explore elevation and land cover profiles.
+* Draw transects on the map and explore elevation and land cover profiles:
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/05.gif" width="700">
 
 * Download the generated mosaics and DEM as .png, max resolution 1000x1000px (Basic Interface).
@@ -51,7 +51,9 @@ The 3D Wetlands App is open access through GEE. The users do not require a GEE a
 * Export the generated mosaics and DEM as a GeoTiff image (Advanced Interface).
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/07.gif" width="800">
 
-* Calculate the area (km2) of each class in the mosaic and export as a .csv file (Advanced Interface).
+* Calculate the area (km2) of each class in the mosaic for the whole region or at elevation ranges and export as a .csv file (Advanced Interface).
+<img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/08.gif" width="800">
+
 * Access to the whole landcover and DEM collections through the code editor (Advanced Interface).
 
 ## Demo

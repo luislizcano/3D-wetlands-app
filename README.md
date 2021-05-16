@@ -97,11 +97,15 @@ Yes, the mosaics can be downloaded as .png (Basic Interface) or .tiff (Advanced 
 
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/images/tasks.JPG" width="400">
 
-* **Why I see an error when trying to plot a elevation profile**
+* **Why I see an error when trying to plot a elevation profile?**
 
 The transect have to start from valid Land Cover and DEM values.
 
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/images/transect.png" width="900">
+
+* **Can I change the color bar legend of the DEM layer?**
+
+The color bar is generated automatically from percentile 1% to percentile 99%. The colors and raneg only can be edited by using the Layers button (right upper corner) eabled in the Advanced Interface. *To edit the DEM layer of the left side of the map you need to drag the splitter all the way to the right of the Layers button.
 
 
 ## Disclaimer:

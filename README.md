@@ -12,7 +12,7 @@
 #### [1. Introduction](1. Introduction)
 #### [2. Features](2. Features)
 #### [3. Demo](3. Demo)
-#### [4. FAQ](4. FAQ)
+#### [4. FAQ](FAQ)
 #### [5. Disclaimer](5. Disclaimer)
 #### [6. Credits](6. Credits)
 

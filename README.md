@@ -95,11 +95,13 @@ Yes, the mosaics can be downloaded as .png (Basic Interface) or .tiff (Advanced 
 2. Check if the process is still running on server.
 3. Search for any new file in your Google Drive.
 
-<img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/images/tasks.JPG" width="500">
+<img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/images/tasks.JPG" width="400">
 
 * **Why I see an error when trying to plot a elevation profile**
+
 The transect have to start from valid Land Cover and DEM values.
 
+<img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/images/transect.png" width="900">
 
 
 ## Disclaimer:

@@ -55,6 +55,7 @@ The 3D Wetlands App is open access through GEE. The users do not require a GEE a
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/08.gif" width="800">
 
 * Access to the whole landcover and DEM collections through the code editor (Advanced Interface).
+<img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/09.JPG" width="600">
 
 ## Demo
 ### Basic Interface:

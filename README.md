@@ -10,11 +10,11 @@
 
 ## Contents:
 #### [1. Introduction](#introduction)
-#### [2. Features](features)
-#### [3. Demo](demo)
-#### [4. FAQ](faq)
-#### [5. Disclaimer](disclaimer)
-#### [6. Credits](credits)
+#### [2. Features](#features)
+#### [3. Demo](#demo)
+#### [4. FAQ](#faq)
+#### [5. Disclaimer](#disclaimer)
+#### [6. Credits](#credits)
 
 
 ## <span id="introduction">1. Introduction</span>

@@ -9,7 +9,7 @@
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/images/gee-app.JPG" width="800">
 
 ## Contents:
-#### [1. Introduction](1. Introduction)
+#### [1. Introduction](.#1.-Introduction)
 #### [2. Features](2. Features)
 #### [3. Demo](3. Demo)
 #### [4. FAQ](FAQ)

@@ -48,7 +48,9 @@ The 3D Wetlands App is open access through GEE. The users do not require a GEE a
 * Download the generated mosaics and DEM as .png, max resolution 1000x1000px (Basic Interface).
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/06.png" width="500">
 
-* Export the generated mosaics in as a GeoTiff image (Advanced Interface).
+* Export the generated mosaics and DEM as a GeoTiff image (Advanced Interface).
+<img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/demo/07.gif" width="800">
+
 * Calculate the area (km2) of each class in the mosaic and export as a .csv file (Advanced Interface).
 * Access to the whole landcover and DEM collections through the code editor (Advanced Interface).
 

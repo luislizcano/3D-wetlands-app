@@ -6,6 +6,7 @@
 
 // Script by: Luis Lizcano-Sandoval
 // College of Marine Science, University of South Florida
+// Contact: luislizcanos@usf.edu
 // Date: 11/12/2020
 
 ///////////////////////////////                DESCRIPTION              /////////////////////////////////

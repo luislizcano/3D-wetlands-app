@@ -1,10 +1,9 @@
 // Script of the 3D-Wetlands app: Basic Interface.
 
-// August 11, 2021
 // Script by: Luis Lizcano-Sandoval
 // College of Marine Science, University of South Florida
+// Date: 11/12/2020
 // Contact: luislizcanos@usf.edu
-
 
 
 // Load some datasets.

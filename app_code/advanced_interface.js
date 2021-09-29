@@ -1044,7 +1044,7 @@ function doMosaic() {
   var exportDEM = function(){
     print('Exporting DEM. Go to the Task tab and press Run...');
     Export.image.toDrive({
-      image: clipDEM.toByte(),
+      image: clipDEM.toFloat(),
       description: 'DEM_Wetlands',
       folder: 'Wetlands',
       scale: 2,

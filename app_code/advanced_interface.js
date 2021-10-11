@@ -653,27 +653,28 @@ function doMosaic() {
   // Clean misclassified cloudy pixels:
   var fullCollection = wetlands//.filterMetadata('system:index','not_contains','Cloudy')
                         .filterBounds(getSelectedFeatures());
-  //Select only developed pixels
-  var devCollection = fullCollection.map(developed);
-  //Create mosaic suming pixel values
-  var sumDeveloped = devCollection.sum();
-  //Select pixels greater than 33 (presence of developed class in 3 or more images)
-  var selectThreshold = sumDeveloped.gt(32);
-  //Create a mask for misclassified pixels
-  var justDeveloped = sumDeveloped.updateMask(selectThreshold);
-  //Some areas over water bodies have cloudy pixels we can mask out
-  var waterCollection = fullCollection.map(water);
-  var waterMask = ee.ImageCollection(waterCollection).max().mask().not();
+  // Function to clean missclassified pixels
+  var cleanDeveloped = function(collection){
+    // Clean misclassified cloudy pixels:
+    var fullCollection = collection//.filterMetadata('system:index','not_contains','Cloudy')
+                          .filterBounds(getSelectedFeatures());
+    //Select only developed pixels
+    var devCollection = fullCollection.map(developed);
+    //Create mosaic suming pixel values
+    var sumDeveloped = devCollection.sum();
+    //Select pixels greater than 33 (presence of developed class in 3 or more images)
+    var selectThreshold = sumDeveloped.gt(32);
+    //Create a mask for misclassified pixels
+    var justDeveloped = sumDeveloped.updateMask(selectThreshold);
+    //Some areas over water bodies have cloudy pixels we can mask out
+    var waterCollection = fullCollection.map(water);
+    var waterMask = ee.ImageCollection(waterCollection).max().mask().not();
+  return justDeveloped.updateMask(waterMask);
+  }
+  
   //Apply water mask on the cleaned collection. This is the mask for
   //"real" developed pixels.
-  var realDeveloped = justDeveloped.updateMask(waterMask);
-  
-  //Only developed mosaic
-  var devAll = ee.ImageCollection(devCollection).max();
-  //To mask false positives
-  var devFalse = ee.ImageCollection(realDeveloped).max().not();
-  //Collection of only false positives
-  var onlyFalse = devAll.updateMask(devFalse);
+  var realDeveloped = cleanDeveloped(wetlands)
 
   // Function to clean mosaic
   var cleanCollection = filterCollection.map(function (image){

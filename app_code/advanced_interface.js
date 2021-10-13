@@ -763,39 +763,38 @@ function doMosaic() {
     countImages.widgets().reset([countLabel]);
       });
   
-  // FUNCTION TO CALCULATE AREAS:
-  //Geometry used for exporting arguments
-  var geometry = ee.Geometry(getSelectedFeatures().geometry(10)).bounds()
-  
   //Function to calculate areas
   var calculateAreas = function(mosaic){
-    var areaImage = ee.Image.pixelArea().addBands(mosaic)
+    var areaImage = ee.Image.pixelArea().addBands(mosaic);
     //Get total area (m2) per class
     var areas = areaImage.reduceRegion({
           reducer: ee.Reducer.sum().group({
           groupField: 1,
-          groupName: 'class',
+          groupName: 'code',
         }),
         geometry: geometry,
         scale: 2,
         maxPixels: 1e13
         }); 
     //ee.List
-    var classAreas = ee.List(areas.get('groups'))
+    var classes = [{'class':'Cloud'},{'class':'Soil'},{'class':'Water'},
+      {'class':'Dead grass'},{'class':'Marsh'},{'class':'Scrub'},{'class':'Grass'},
+      {'class':'Forested upland'},{'class':'Forested wetland'},{'class':'Developed'}];
+    var classAreas = ee.List(areas.get('groups')).zip(classes);
     //Convert m^2 to km^2
     var classAreaLists = classAreas.map(function(item) {
-      var areaDict = ee.Dictionary(item)
-      var classNumber = ee.Number(areaDict.get('class')).format()
-      var area = ee.Number(
-        areaDict.get('sum')).divide(1e6)//.round()
-      return ee.List([classNumber, area])
-    })
+      var dict1 = ee.Dictionary(ee.List(item).get(0));
+      var dict2 = ee.Dictionary(ee.List(item).get(1));
+      var areaDict = dict1.combine(dict2);
+      var CODE = ee.Number(areaDict.get('code')).format();
+      var CLASS = areaDict.get('class');
+      var AREA = ee.Number(areaDict.get('sum')).divide(1e6);
+      return ee.Feature(null,{'code':CODE,'class':CLASS,'area_km2':AREA});
+    });
     // Convert list to featureCollection
-    var featureCollection = ee.FeatureCollection(classAreaLists
-                            .map(function(element){
-                            return ee.Feature(null,{area_km2:element})}))
-    return featureCollection
-  }
+    var featureCollection = ee.FeatureCollection(classAreaLists);
+    return featureCollection;
+  };
   
   
   //////////////////
@@ -1593,9 +1592,7 @@ var textArea = ui.Label({
     textAlign: 'left'}
 });
 var textAreaInfo = ui.Label({
-    value: 'Calculate areas (km^2) by class of the selected regions and export results to Google Drive as a CSV file.'+
-      ' The file will contain a list of classes with their respective area within squared brackets,'+
-      ' e.g. [9,51.247]; the class 9 (Forested upland) is 51km^2. See the class codes listed in the code editor.',
+    value: 'Calculate areas (km^2) by class of the selected regions and export results to Google Drive as a CSV file.',
     style: {
     fontSize: '13px',
     padding: '0px', 

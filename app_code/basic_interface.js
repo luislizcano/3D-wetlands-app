@@ -1417,7 +1417,7 @@ var Link = ui.Label({
     stretch: 'horizontal', 
     textAlign: 'left'}
 });
-Link.setUrl('https://code.earthengine.google.com/845906373c2285cae170e3ae24cb6a02');
+Link.setUrl('https://code.earthengine.google.com/3f1112adf257c61502bb174466c160c5');
 
 panel.widgets().set(28,ui.Panel([  
   linkDesc,

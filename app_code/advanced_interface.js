@@ -787,9 +787,9 @@ function doMosaic() {
       var dict2 = ee.Dictionary(ee.List(item).get(1));
       var areaDict = dict1.combine(dict2);
       var CODE = ee.Number(areaDict.get('code')).format();
-      var CLASS = areaDict.get('class');
+      //var CLASS = areaDict.get('class');
       var AREA = ee.Number(areaDict.get('sum')).divide(1e6);
-      return ee.Feature(null,{'code':CODE,'class':CLASS,'area_km2':AREA});
+      return ee.Feature(null,{'code':CODE,'area_km2':AREA});
     });
     // Convert list to featureCollection
     var featureCollection = ee.FeatureCollection(classAreaLists);

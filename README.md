@@ -36,7 +36,7 @@ DEM Coverage:
 
 <img src="https://raw.github.com/luislizcano/3D-wetlands-app/main/images/dem.png" width="800">
 
-The 3D Wetlands App is open access through GEE. The users do not require a GEE account to use all the features available in the [app interface](https://lizcanosandoval.users.earthengine.app/view/hr-land-cover-gulf-of-mexico). If the user has a GEE account can have access to an [advanced version](https://code.earthengine.google.com/47c4f5bbc0182929f4273c24dd2315b6) which will allow to export data to the respective Google Drive account by clicking a button. To this point previous experience with GEE is **not required**. However, the access of the landcover and DEM collections for other specific uses through the code editor previous knowledge with GEE is required (See the [GEE Documentation](https://developers.google.com/earth-engine)).
+The 3D Wetlands App is open access through GEE. The users do not require a GEE account to use all the features available in the [app interface](https://lizcanosandoval.users.earthengine.app/view/hr-land-cover-gulf-of-mexico). If the user has a GEE account can have access to an [advanced version](https://code.earthengine.google.com/631998e48235316a8a37c692484ee78e) which will allow to export data to the respective Google Drive account by clicking a button. To this point previous experience with GEE is **not required**. However, the access of the landcover and DEM collections for other specific uses through the code editor previous knowledge with GEE is required (See the [GEE Documentation](https://developers.google.com/earth-engine)).
 
 ## <span id="features">2. Features</span>
 * Create, visualize and compare land cover mosaics of two user-defined periods in one or more selected Counties:
